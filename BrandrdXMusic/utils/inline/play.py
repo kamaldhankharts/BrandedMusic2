@@ -66,6 +66,17 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
+        [
+            InlineKeyboardButton(
+                text="🍁ɢʀᴏᴜᴘ🍁", url=f"https://t.me/+iDdo3fgjUOtlMjg1"
+            ),
+            InlineKeyboardButton(
+                text="🍁ᴘʀᴏᴍᴏ🍁", url=f"https://t.me/+Agu-udtgKRk2ZjFl"
+            ),
+        ],
+        [
+             InlineKeyboardButton(text="🍁ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ🍁", url="https://t.me/Devil_X_Music_Robot"),
+        ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -79,6 +90,17 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+        ],
+        [
+            InlineKeyboardButton(
+                text="🍁ɢʀᴏᴜᴘ🍁", url=f"https://t.me/+iDdo3fgjUOtlMjg1"
+            ),
+            InlineKeyboardButton(
+                text="🍁ᴘʀᴏᴍᴏ🍁", url=f"https://t.me/+Agu-udtgKRk2ZjFl"
+            ),
+        ],
+        [
+             InlineKeyboardButton(text="🍁ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ🍁", url="https://t.me/Devil_X_Music_Robot"),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -228,6 +250,17 @@ def stream_markup2(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
+            InlineKeyboardButton(
+                text="🍁ɢʀᴏᴜᴘ🍁", url=f"https://t.me/+iDdo3fgjUOtlMjg1"
+            ),
+            InlineKeyboardButton(
+                text="🍁ᴘʀᴏᴍᴏ🍁", url=f"https://t.me/+Agu-udtgKRk2ZjFl"
+            ),
+        ],
+        [
+             InlineKeyboardButton(text="🍁ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ🍁", url="https://t.me/Devil_X_Music_Robot"),
+        ],
+        [
             InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
         ],
     ]
@@ -269,6 +302,17 @@ def stream_markup_timer2(_, chat_id, played, dur):
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+        ],
+        [
+            InlineKeyboardButton(
+                text="🍁ɢʀᴏᴜᴘ🍁", url=f"https://t.me/+iDdo3fgjUOtlMjg1"
+            ),
+            InlineKeyboardButton(
+                text="🍁ᴘʀᴏᴍᴏ🍁", url=f"https://t.me/+Agu-udtgKRk2ZjFl"
+            ),
+        ],
+        [
+             InlineKeyboardButton(text="🍁ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ🍁", url="https://t.me/Devil_X_Music_Robot"),
         ],
         [
             InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
