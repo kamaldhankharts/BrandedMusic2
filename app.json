@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "20799890",
+        "value": "22628375",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "1063585c006b856dc0c9806bf45fb474",
+        "value": "0983551cc3fa85032110d07fcaf6484b",
         "required": true
       },
       "BOT_TOKEN": {
